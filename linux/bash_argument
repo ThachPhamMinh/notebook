@@ -8,3 +8,6 @@ $#		: number of arg, except caller script
 if [ $# -lt 1 ] ; then
     echo "usage: $0 <username>" 
 fi
+
+default param
+name=${1-'default name'}
